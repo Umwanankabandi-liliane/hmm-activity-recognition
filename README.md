@@ -207,7 +207,7 @@ Extract informative features from raw sensor data:
 - Generate confusion matrix
 - Perform cross-subject validation
 
----
+
 
 ##  Technologies Used
 
@@ -220,7 +220,7 @@ Extract informative features from raw sensor data:
 | **Signal Processing** | SciPy |
 | **Environment** | Jupyter Notebook, Google Colab |
 
----
+
 
 ##  Results
 
@@ -233,7 +233,7 @@ The trained HMM models demonstrate strong performance in activity recognition:
 
 *Detailed results and visualizations are available in the notebook.*
 
----
+
 
 ##  Contributing
 
@@ -252,18 +252,8 @@ Contributions are welcome! Here's how you can help:
 - Mobile deployment
 - Enhanced feature selection
 
----
-
-##  License
-
-This project is licensed for **educational and research purposes**. Feel free to use and modify the code for academic and non-commercial applications.
-
----
 
 
 
-<div align="center">
 
-**⭐ If you find this project helpful, please consider giving it a star!**
 
-</div>
