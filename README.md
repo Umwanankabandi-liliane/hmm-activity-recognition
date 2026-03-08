@@ -156,7 +156,7 @@ predictions = predict_activities(test_data, hmm_models)
 
 # 5. Evaluation
 accuracy, confusion_mat = evaluate_model(predictions, true_labels)
-```
+
 
 
 
