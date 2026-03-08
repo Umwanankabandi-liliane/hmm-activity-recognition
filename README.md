@@ -13,7 +13,7 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Dataset](#dataset)
@@ -29,19 +29,19 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This project implements a **Hidden Markov Model (HMM)** based system for recognizing human activities from inertial sensor data. The system processes accelerometer and gyroscope readings from mobile devices to classify activities in real-time. This approach is valuable for applications in health monitoring, fitness tracking, and context-aware computing.
 
 ### Supported Activities
-- 🧍 **Standing** - User is stationary and upright
-- 🚶 **Walking** - User is in motion at walking pace
-- 🦘 **Jumping** - User is performing jumping motions
-- 🪑 **Still** - User is completely stationary
+-  **Standing** - User is stationary and upright
+-  **Walking** - User is in motion at walking pace
+-  **Jumping** - User is performing jumping motions
+-  **Still** - User is completely stationary
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - **Multi-sensor Fusion**: Combines accelerometer and gyroscope data for robust activity recognition
 - **Feature Engineering**: Extracts statistical and frequency-domain features from sensor signals
@@ -52,7 +52,7 @@ This project implements a **Hidden Markov Model (HMM)** based system for recogni
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 ### Data Organization
 ```
@@ -82,7 +82,7 @@ Each activity recording contains:
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 The system employs a **Gaussian Hidden Markov Model** approach:
 
@@ -103,7 +103,7 @@ The system employs a **Gaussian Hidden Markov Model** approach:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.7 or higher
@@ -135,7 +135,7 @@ The system employs a **Gaussian Hidden Markov Model** approach:
 
 ---
 
-## 💻 Usage
+##  Usage
 
 ### Quick Start
 
@@ -172,7 +172,7 @@ accuracy, confusion_mat = evaluate_model(predictions, true_labels)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 human-activity-hmm/
@@ -189,7 +189,7 @@ human-activity-hmm/
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
 - Load accelerometer and gyroscope CSV files
@@ -221,7 +221,7 @@ Extract informative features from raw sensor data:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Category | Tools |
 |----------|-------|
@@ -234,7 +234,7 @@ Extract informative features from raw sensor data:
 
 ---
 
-## 📈 Results
+##  Results
 
 The trained HMM models demonstrate strong performance in activity recognition:
 
@@ -247,7 +247,7 @@ The trained HMM models demonstrate strong performance in activity recognition:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -266,17 +266,13 @@ Contributions are welcome! Here's how you can help:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed for **educational and research purposes**. Feel free to use and modify the code for academic and non-commercial applications.
 
 ---
 
-## 📧 Contact
 
-For questions, suggestions, or collaboration opportunities, please open an issue in the repository.
-
----
 
 <div align="center">
 
