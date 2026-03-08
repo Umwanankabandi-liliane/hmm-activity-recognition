@@ -1,17 +1,5 @@
 # Human Activity Recognition using Hidden Markov Models
 
-<div align="center">
-
-**A machine learning system for classifying human activities from smartphone sensor data**
-
-[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-yellow.svg)](https://scikit-learn.org/)
-[![HMM](https://img.shields.io/badge/Model-HMM-green.svg)](https://hmmlearn.readthedocs.io/)
-
-</div>
-
----
 
 ## Table of Contents
 - [Overview](#overview)
@@ -27,7 +15,7 @@
 - [Contributing](#contributing)
 - [License](#license)
 
----
+
 
 ##  Overview
 
@@ -39,7 +27,7 @@ This project implements a **Hidden Markov Model (HMM)** based system for recogni
 -  **Jumping** - User is performing jumping motions
 -  **Still** - User is completely stationary
 
----
+
 
 ##  Key Features
 
@@ -50,7 +38,7 @@ This project implements a **Hidden Markov Model (HMM)** based system for recogni
 - **Comprehensive Evaluation**: Includes confusion matrices, accuracy metrics, and classification reports
 - **Visualization Tools**: Provides insightful plots for data exploration and model performance
 
----
+
 
 ##  Dataset
 
@@ -71,7 +59,7 @@ data/
     ├── walking/
     ├── jumping/
     └── still/
-```
+
 
 ### Sensor Data Files
 Each activity recording contains:
@@ -80,7 +68,7 @@ Each activity recording contains:
 - `Metadata.csv` - Recording information
 - `Annotation.csv` - Activity labels and timestamps
 
----
+
 
 ##  Model Architecture
 
@@ -101,7 +89,7 @@ The system employs a **Gaussian Hidden Markov Model** approach:
    - Likelihood-based prediction
    - Activity class with maximum log-likelihood selected
 
----
+
 
 ##  Installation
 
@@ -133,7 +121,7 @@ The system employs a **Gaussian Hidden Markov Model** approach:
    jupyter notebook
    ```
 
----
+
 
 ##  Usage
 
@@ -170,7 +158,7 @@ predictions = predict_activities(test_data, hmm_models)
 accuracy, confusion_mat = evaluate_model(predictions, true_labels)
 ```
 
----
+
 
 ##  Project Structure
 
@@ -187,7 +175,7 @@ human-activity-hmm/
 └── requirements.txt          # Python dependencies
 ```
 
----
+
 
 ##  Methodology
 
